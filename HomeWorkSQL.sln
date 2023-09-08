@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33829.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkSQL", "HomeWorkSQL\HomeWorkSQL.csproj", "{CAA5874B-D2F5-4CB8-8640-C1E48F3DADAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA5874B-D2F5-4CB8-8640-C1E48F3DADAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA5874B-D2F5-4CB8-8640-C1E48F3DADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA5874B-D2F5-4CB8-8640-C1E48F3DADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA5874B-D2F5-4CB8-8640-C1E48F3DADAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9DAB04E-BC5D-471A-A917-2E36AA1B9473}
+	EndGlobalSection
+EndGlobal
