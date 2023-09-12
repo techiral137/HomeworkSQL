@@ -10,15 +10,6 @@ using System.Windows.Forms;
 
 namespace HomeWorkSQL
 {
-  public class FormDTO
-  {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Loadbirthday1 { get; set; }
-    public string Job { get; set; }
-    public bool Marry { get; set; }
-  }
-
   public partial class EditForm : Form
     {
         private readonly FormDTO _formDTO;
@@ -75,7 +66,13 @@ namespace HomeWorkSQL
         {
             this.Close();
         }
-
-
-  }
+   }
+    public class FormDTO
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Loadbirthday1 { get; set; }
+        public string Job { get; set; }
+        public bool Marry { get; set; }
+    }
 }
