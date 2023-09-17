@@ -11,15 +11,15 @@ namespace HomeWorkSQL
             SqlConnection conn = connection.getConnection();
             SqlCommand command = new SqlCommand();
             conn.Open();
-            //string InputCmd = "IF EXISTS (SELECT ID FROM AccountInfo WHERE ID = @id) " +
-            //                   "BEGIN " +
-            //                   "   SELECT 'true' " +
-            //                   "END " +
-            //                   "ELSE " +
-            //                   "BEGIN " +
-            //                   "   SELECT 'false' " +
-            //                   "END";
-            string InputCmd = "SELECT COUNT(*) FROM AccountInfo WHERE ID = @id "; // 방법 보완 필
+            string InputCmd = "IF EXISTS (SELECT ID FROM AccountInfo WHERE ID = @id) " +
+                               "BEGIN " +
+                               "   SELECT 'true' " +
+                               "END " +
+                               "ELSE " +
+                               "BEGIN " +
+                               "   SELECT 'false' " +
+                               "END";
+            //string InputCmd = "SELECT COUNT(*) FROM AccountInfo WHERE ID = @id "; // 방법 보완 필
             command.Connection = conn;
             command.CommandText = InputCmd;
             command.Parameters.AddWithValue("@Id", id);
